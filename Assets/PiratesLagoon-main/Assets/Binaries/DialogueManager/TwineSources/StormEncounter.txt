@@ -1,0 +1,49 @@
+:: Abordage sous la tempête [c:narrator e:Start] {"position":"950,400","size":"100,100"}
+Le vent se met à soufler et les voiles grande ouverte font accelérer le navire. A cette allure il ne tardera pas à rattraper le convoi français.
+
+Mais ce vent pourais annoncer quelque chose, au loin les nuages semble de plus en plus gris.
+
+[[Il faut maintenir la cadence  |storm-fast]]
+[[Un orage arrive il faut s'y préparer |storm-prepared]]
+
+:: storm-fast [c:narrator] {"position":"875,550","size":"100,100"}
+Sous vos ordre, les matelots s'affaire au voiles pour prendre le meilleur partie du vent et faire avancer le navire aussi vite que possible.
+
+Après 1h les efforts payent ! Au loin la poupe du convoi d'épices est en vue.
+
+Mais au dessus de lui un ciel noir a remplacer l'azure, la tempête est invevitable..
+
+[[Trop tard pour ralentir, droit sur le convoi !|stormbattle-fastest]]
+[[Ralentir pour meiux controler le navires |stormbattle-fast]]
+
+:: storm-prepared [c:narrator] {"position":"1100,500","size":"100,100"}
+Sous vos ordre, les matelots s'affaire pour ralentir le bateau et se préparer au mieux à l'orage qui se confirme de plus en plus.
+
+Certes les français auront plus de temps pour vous voir s'approcher mais la tempête aura moins d'impact
+
+[[Continuer |storm-prepared2]]
+
+
+
+:: stormbattle-fastest [c:narrator] {"position":"800,700","size":"100,100"}
+La tempête bat son plein alors que vous vous élancez à plein vitesse vers le convoi.
+Ils n'ont eu aucun chance de se preparer !
+[[A l'abordage !|END]]
+
+:: stormbattle-fast [c:narrator] {"position":"950,700","size":"100,100"}
+Sur le pont du navire enemi dont vous vous rapprochez les matelots se prépare à votre attaque.
+
+Mais vos manoeuvre vous assure que la tempête perturbera moins vos plans.
+[[Une sage decision !|END]]
+
+:: stormbattle-slow [c:narrator] {"position":"1100,800","size":"100,100"}
+La bataille s'annonce rude alors que le convoi français se tient prêt à vous recevoir.
+Cependant vous avez eu raison de vous préparer, la tempête aura moins d'effets sur votre navire et votre équipage
+[[Vos matelots sont prêts !|END]]
+
+:: storm-prepared2 [c:narrator] {"position":"1100,650","size":"100,100"}
+Après un long moment vous arrivez en vu du convoi d'épices. Il vous ont aussi repérer et vous voyez dans votre longue-vue leur équipage courir sur le pont.
+
+[[Leur préparation ne changera pas leur destin ! |stormbattle-slow]]
+
+:: END {"position":"775,825","size":"100,100"}

@@ -1,0 +1,21 @@
+# ninja log v5
+1117	1218	1709020496159418361	/Users/julien/Documents/Unity Projects/PiratesLagoon/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/s59343to/obj/arm64-v8a/libgame.so	758b014c03280e70
+0	1117	1709020496081648611	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	91b4a8196b256454
+1	1096	1709020496060450588	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	238137d65f4ea3f7
+2	996	1709020495951860293	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e943892144d0a041
+0	996	1709020495950699847	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	34017d3a1585a6c8
+1	870	1709020495835022503	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a893393a2c8185c2
+1	841	1709020495804762118	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	dd8394872f6576d7
+2	913	1709020495878382538	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	3285e451bb434d08
+335	460	1709020495400943902	/Users/julien/Documents/Unity Projects/PiratesLagoon/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/s59343to/obj/arm64-v8a/libswappywrapper.so	6d8177ef8913cfe5
+2	334	1709020495300467812	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	ccc7a00606eb7d1c
+4	316	1709020680837991500	FramePacing/CMakeFiles/swappywrapper.dir/UnitySwappyWrapper.cpp.o	ccc7a00606eb7d1c
+317	534	1709020681033289825	/Users/julien/Documents/Unity Projects/PiratesLagoon/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/s59343to/obj/arm64-v8a/libswappywrapper.so	6d8177ef8913cfe5
+3	590	1709020681112423435	GameActivity/CMakeFiles/game.dir/UGAInputKeyEvent.cpp.o	dd8394872f6576d7
+2	603	1709020681126096580	GameActivity/CMakeFiles/game.dir/UGAEntry.cpp.o	a893393a2c8185c2
+3	618	1709020681141548748	GameActivity/CMakeFiles/game.dir/UGAInputMotionEvent.cpp.o	3285e451bb434d08
+3	666	1709020681189274029	GameActivity/CMakeFiles/game.dir/UGASoftKeyboard.cpp.o	e943892144d0a041
+2	682	1709020681205824351	GameActivity/CMakeFiles/game.dir/UGADebug.cpp.o	34017d3a1585a6c8
+2	781	1709020681304293755	GameActivity/CMakeFiles/game.dir/UGAInput.cpp.o	238137d65f4ea3f7
+1	833	1709020681356161658	GameActivity/CMakeFiles/game.dir/UGAApplication.cpp.o	91b4a8196b256454
+833	912	1709020681417518500	/Users/julien/Documents/Unity Projects/PiratesLagoon/Library/Bee/Android/Prj/IL2CPP/Gradle/unityLibrary/build/intermediates/cxx/RelWithDebInfo/s59343to/obj/arm64-v8a/libgame.so	758b014c03280e70

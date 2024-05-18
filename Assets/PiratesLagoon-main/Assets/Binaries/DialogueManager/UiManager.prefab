@@ -1,0 +1,76 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1726667319014705788
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6352700282423507737}
+  - component: {fileID: 1721835142441234778}
+  m_Layer: 0
+  m_Name: UiManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6352700282423507737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726667319014705788}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 501.4272, y: 303.0693, z: -9.293007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1721835142441234778
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1726667319014705788}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da03a5428432dc4499544f466bd53ba3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _UIObjects:
+    m_keys:
+    - CharacterArt
+    - MainDialogueText
+    - CharacterName
+    - Button_0
+    - Button_1
+    - Button_2
+    - Button_3
+    - GradeText
+    - EndButton
+    m_values:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+  _Animators:
+    m_keys:
+    - DialogueAnimator
+    m_values:
+    - {fileID: 0}
+  _button0_hide: {fileID: 7400000, guid: 8c6298b90dcf2e74d8abe6ea7e18292b, type: 2}
+  _button1_hide: {fileID: 7400000, guid: ea34beae29aa49047874dc3e47456235, type: 2}
+  _button2_hide: {fileID: 7400000, guid: 70a8d5554a992a84da47c43fa49c7988, type: 2}
+  _button3_hide: {fileID: 7400000, guid: 6926a0b5d23431543b3009d69d60519e, type: 2}

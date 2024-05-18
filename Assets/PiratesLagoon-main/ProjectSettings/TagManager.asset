@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Draggable
+  - Canon
+  - Mast
+  - Wheel
+  - target
+  - Boat
+  - Proue
+  - Poupe
+  - Enemy
+  - Left
+  - Right
+  - Bow
+  - Pivot
+  - FxTemporaire
+  - DamageZone
+  - Bullet
+  - side
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Unit
+  - BoatPlayer
+  - 
+  - 
+  - 
+  - 
+  - CombatIU
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - Enemy
+  - DamageZone
+  - Bullet
+  - 
+  - 
+  - 
+  - 
+  - UI
+  - Item
+  - Tool
+  - Ground
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: up
+    uniqueID: 693668185
+    locked: 0
+  - name: back
+    uniqueID: 3893965631
+    locked: 0
+  - name: left
+    uniqueID: 1473046077
+    locked: 0
+  - name: right
+    uniqueID: 418652235
+    locked: 0

@@ -1,0 +1,36 @@
+:: MerchantStart [e:Start c:narrator] {"position":"800,350","size":"100,100"}
+Au fond d'une petite rue du port, un curieux batiment attire votre attention. Il semblerai que ça soit une petite boutique dont la vitrine met en avant des objet diverts dans un bazar soignesement organisé.
+
+Cous décider de franchir le pas de la porte, poussé par l'instinct que les réponses que vous chercher se trouve ici.
+
+[[Continuer |PlayerIntro]]
+
+:: PlayerIntro [c:player] {"position":"925,475","size":"100,100"}
+Bonjour noble marchante,
+Je suis a là recherche d'informations, savez vous où vas passer le convoi d'épices en route pour la France ?
+
+[[Continuer |MerchantOptions]]
+
+:: MerchantOptions [c:merchant] {"position":"925,600","size":"100,100"}
+Ah, bonjour, voyageur intrépide ! Vous semblez chercher les secrets des mers. 
+Le convoi d'épices en route vers la France ? 
+Mes oreilles ont capté des murmures de voiles blanches se dirigeant vers l'ouest. Mais la mer est une confidente discrète, et ses secrets sont bien gardés. Que cherchez-vous précisément dans ce convoi d'épices ?
+
+[[J'aimerai croiser leur route|MerchantInfoCrossPath]]
+[[Je cherche leur coordonées exactes|MerchantInfoLocation]]
+[[Merci pour ces information|END]]
+
+:: END {"position":"1050,725","size":"100,100"}
+
+
+:: MerchantInfoLocation [c:merchant] {"position":"925,725","size":"100,100"}
+Les coordonnées exactes ? Laissez moi reflechir..
+
+Le convoi est partie hier dans la matinée, en direction de l'est. Trois navires bien rempli voila ce que je peux vous dire.
+
+[[Il ne doivent pas être loin !|MerchantOptions]]
+
+:: MerchantInfoCrossPath [c:merchant] {"position":"800,725","size":"100,100"}
+Ah, je comprends, cher aventurier. 
+Si votre route croise celle du convoi d'épices en direction de la France, peut-être pourriez-vous échanger des mots avec eux ou partager une tasse de rhum sur le pont. Les voiles portent parfois des histoires fascinantes. Restez attentif aux vents et aux étoiles, et qui sait ce que les océans pourraient révéler lors de votre périple.
+[[Il me tarde de pouvoir entendre ces histoires !|MerchantOptions]]

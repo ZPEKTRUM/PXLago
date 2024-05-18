@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1750174802779199575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2484618684412608133}
+  - component: {fileID: 5790754532124566060}
+  - component: {fileID: 1105844987493193040}
+  m_Layer: 0
+  m_Name: DialogueViewer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2484618684412608133
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750174802779199575}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 501.4272, y: 303.0693, z: -9.293007}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5790754532124566060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750174802779199575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73f492a0ba186dc4c87466deb7035822, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _playerData: {fileID: 11400000, guid: d8e6b6749bc404b47afb3a20dafc112c, type: 2}
+  _characters:
+    m_keys:
+    - narrator
+    m_values:
+    - {fileID: 11400000, guid: a752b6cd9eeedb247bb91a9b74a26e62, type: 2}
+  _uiManager: {fileID: 0}
+  _mainDialogueText: MainDialogueText
+  _characterName: CharacterName
+  _characterArtIllu: CharacterArt
+  _optionButton0: Button_0
+  _optionButton1: Button_1
+  _optionButton2: Button_2
+  _optionButton3: Button_3
+  _gradeText: GradeText
+  _endButton: EndButton
+  _dialogueAnimator: DialogueAnimator
+  _endClip: {fileID: 7400000, guid: 050d1710f296a4a4ab31e0b0d2c2f832, type: 2}
+--- !u!114 &1105844987493193040
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1750174802779199575}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 460a19e786235854cbdb39771bcc6912, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _tweeSourceAsset: {fileID: 4900000, guid: cc395796f87cf424a9ab53b5440cd441, type: 3}
+  _firstPassage: 
+  titles: []
