@@ -611,6 +611,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 98019611890790582, guid: c833b91a42f274fff93b69b560e68402, type: 3}
   m_PrefabInstance: {fileID: 2139887362}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &529901163 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4256548874116874398, guid: fa3aa2e36980840bead778f25b9b2190, type: 3}
+  m_PrefabInstance: {fileID: 5963761472427553651}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &547067963
 GameObject:
   m_ObjectHideFlags: 0
@@ -56878,6 +56883,10 @@ PrefabInstance:
       propertyPath: _coroutines
       value: 
       objectReference: {fileID: 1861048283087854258}
+    - target: {fileID: 8461110680432024950, guid: fa3aa2e36980840bead778f25b9b2190, type: 3}
+      propertyPath: yPivot
+      value: 
+      objectReference: {fileID: 529901163}
     - target: {fileID: 8853503398787292635, guid: fa3aa2e36980840bead778f25b9b2190, type: 3}
       propertyPath: m_NavMeshData
       value: 
