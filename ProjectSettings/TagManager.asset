@@ -18,6 +18,8 @@ TagManager:
   - Boat
   - Poupe
   - Piratz
+  - FxTemporaire
+  - Target
   layers:
   - Default
   - TransparentFX
